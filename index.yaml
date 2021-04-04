@@ -3,6 +3,20 @@ entries:
   app1:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2021-04-04T14:13:26.915283+03:00"
+    dependencies:
+    - name: kube-state-metrics
+      repository: https://kubernetes.github.io/kube-state-metrics
+      version: 2.13.*
+    description: A Helm chart for Kubernetes
+    digest: 781a955864eb78748cbe4a6b73c91f0d9ab29b4f4d8e16e69f59947ca5f58c34
+    name: app1
+    type: application
+    urls:
+    - https://github.com/Alon-Katz/cluster-agent-test/releases/download/app1-0.1.1/app1-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2021-04-04T12:59:11.75563+03:00"
     description: A Helm chart for Kubernetes
     digest: 6ddfcbf3f00d59e03d9c3c4c08ea5d5921634357ea551eca30ae0a733af378a2
