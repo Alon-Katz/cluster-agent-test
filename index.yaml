@@ -3,6 +3,20 @@ entries:
   app1:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2021-04-04T14:21:26.702531+03:00"
+    dependencies:
+    - name: cluster-agent
+      repository: https://helm.epsagon.com
+      version: 0.1.7
+    description: A Helm chart for Kubernetes
+    digest: b6288dce9bd2bcf464142cd335b1affe0174464ffbcb94342bffdf5539c87944
+    name: app1
+    type: application
+    urls:
+    - https://github.com/Alon-Katz/cluster-agent-test/releases/download/app1-0.1.2/app1-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2021-04-04T14:13:26.915283+03:00"
     dependencies:
     - name: kube-state-metrics
