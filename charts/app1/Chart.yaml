@@ -24,6 +24,6 @@ version: 0.1.1
 appVersion: "1.16.0"
 
 dependencies:
-  - name: kube-state-metrics
-    version: "2.13.*"
-    repository: https://kubernetes.github.io/kube-state-metrics
+  - name: cluster-agent
+    version: "0.1.7"
+    repository: https://helm.epsagon.com
